@@ -1,4 +1,0 @@
-abp
-===
-
-AdBlock Plus Filters
