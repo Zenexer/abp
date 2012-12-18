@@ -1,7 +1,7 @@
 Adblock Plus Filters
 ====================
 
-Use this filter by adding ### to your list of Adblock Plus filters.
+Use this filter by adding https://raw.github.com/Zenexer/abp/master/filter.adp to your list of Adblock Plus filters.
 
 License
 =======
