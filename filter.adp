@@ -20,4 +20,9 @@ blogspot.com##div#ball2
 blogspot.com##div.google-right
 blogspot.com##div.google-left
 !
+!
+! mcbans.com {{{1
+! @What:  antiadblock
+! @Where: mcbans.com
+mcbans.com##div#noAdvertisementBox
 ! EOF
