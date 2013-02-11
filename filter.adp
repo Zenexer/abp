@@ -9,6 +9,7 @@
 !				Ampersand suffix indicates "sites linked from, and including".
 !				 Opening angle bracket indicates the same, but not including.
 !
+!
 ! blogspot.com {{{1
 !
 ! home-page-spt.blogspot.com& {{{2
@@ -25,4 +26,6 @@ blogspot.com##div.google-left
 ! @What:  antiadblock
 ! @Where: mcbans.com
 mcbans.com##div#noAdvertisementBox
+!
+!
 ! EOF
