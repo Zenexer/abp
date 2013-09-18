@@ -3,11 +3,16 @@
 !
 ! See license at https://github.com/Zenexer/abp.
 !
+! Homepage: https://github.com/Zenexer/abp
+! Title: Zenexer's Filters
+! Redirect: https://raw.github.com/Zenexer/abp/master/filter.adp
+! Version: 3
+!
 ! Fields:
-!	What:		Describes what is blocked.
-!	Where:		Describes where the ads can be found.  Multi-line list.
+!	what:		Describes what is blocked.
+!	where:		Describes where the ads can be found.  Multi-line list.
 !				Ampersand suffix indicates "sites linked from, and including".
-!				 Opening angle bracket indicates the same, but not including.
+!				Opening angle bracket indicates the same, minus "including".
 !
 !
 ! blogspot.com {{{1
@@ -23,9 +28,16 @@ blogspot.com##div.google-left
 !
 !
 ! mcbans.com {{{1
-! @What:  antiadblock
-! @Where: mcbans.com
+! @What:	anti-adblock
+! @Where:	mcbans.com
 mcbans.com##div#noAdvertisementBox
+!
+!
+! play.google.com {{{1
+! @what:	album art obfuscation - Why is this necessary?
+! @where:	play.google.com
+play.google.com##body > .screensaver > .panning > .overlay
+||gstatic.com/play/music/*/over_pattern.png|$image,domain=play.google.com,match-case
 !
 !
 ! EOF
