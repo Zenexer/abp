@@ -36,7 +36,7 @@ mcbans.com##div#noAdvertisementBox
 ! play.google.com {{{1
 ! @what:	album art obfuscation - Why is this necessary?
 ! @where:	play.google.com
-play.google.com##body > .screensaver > .panning > .overlay
+play.google.com##div.overlay
 ||gstatic.com/play/music/*/over_pattern.png|$image,domain=play.google.com,match-case
 !
 !
