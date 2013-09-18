@@ -4,9 +4,10 @@
 ! See license at https://github.com/Zenexer/abp.
 !
 ! Homepage: https://github.com/Zenexer/abp
-! Title: Zenexer's Filters
-! Redirect: https://raw.github.com/Zenexer/abp/master/filter.adp
+! Title: ZenFilter
 ! Version: 3
+! Expires: 1 day
+! Redirect: https://s3.amazonaws.com/files.e2m/dist/abp/filter.adp
 !
 ! Fields:
 !	what:		Describes what is blocked.
