@@ -9,10 +9,10 @@
 ! Expires: 1 day
 !
 ! Fields:
-!	what:		Describes what is blocked.
-!	where:		Describes where the ads can be found.  Multi-line list.
-!				Ampersand suffix indicates "sites linked from, and including".
-!				Opening angle bracket indicates the same, minus "including".
+!	what:    Describes what is blocked.
+!	where:   Describes where the ads can be found.  Multi-line list.
+!	         Ampersand suffix indicates "sites linked from, and including".
+!	         Opening angle bracket indicates the same, minus "including".
 !
 !
 ! blogspot.com {{{1
